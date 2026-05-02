@@ -32,16 +32,11 @@ This project demonstrates how to build a REST API that performs CRUD operations 
 ### Create Ticket
 `PUT /ticket/put`
 
-Example request body:
+## API Demo
 
-```json
-{
-  "type": "task",
-  "priority": 2,
-  "status": "open",
-  "title": "Run report"
-}
-```
+### Create Ticket Request in Postman
+
+![Postman PUT Request](screenshots/postman-put-ticket.png)
 
 ### Get Ticket by ID
 `GET /ticket/get?id=1`
