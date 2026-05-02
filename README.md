@@ -59,6 +59,12 @@ This project uses a MariaDB database named:
 
 `ticket_database`
 
+## Database Demo
+
+### Stored Ticket Records in MariaDB
+
+![MariaDB Ticket Data](mariadbtables.png)
+
 JPA handles persistence and maps Java objects directly to relational tables.
 
 ## Learning Outcomes
