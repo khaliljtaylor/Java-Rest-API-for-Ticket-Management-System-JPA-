@@ -41,11 +41,17 @@ This project demonstrates how to build a REST API that performs CRUD operations 
 ### Get Ticket by ID
 `GET /ticket/get?id=1`
 
+![Postman GET Request](screenshots/postman-getbyid-ticket.png)
+
 ### Get Tickets by Type
 `GET /ticket/getbytype?type=task`
 
+![Postman GETBYTYPE Request](screenshots/postman-getbytype-ticket.png)
+
 ### Delete Ticket
 `DELETE /ticket/delete?id=1`
+
+![Postman DELETE Request](screenshots/postman-delete-ticket.png)
 
 ## Database
 
